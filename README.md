@@ -1,3 +1,17 @@
+## Apa ini?
+
+Ini projek iseng, intinya membuat dynamic form / form yang jumlah inputannya bisa dirubah. Jadi kalau bikin web pakai React dan membutuhkan banyak form pakai ini aja. Jadi ga perlu cape2 ngetik banyak. Cukup diganti modelnya aja. Modelnya bisa pake JSON atau XML (sebenernya XMLnya juga di parse lagi jadi JSON, jadi sama aja wkwkwkw). buat nge-parse pake package dari [xml2js](https://www.npmjs.com/package/xml2js)
+
+## Oh ya? Udah bisa buat form apa aja nih?
+
+Hmm, sementara baru yg tipe text, Number (masih perlu dirombak karena inputan number react aneh banget wkwkwkwk), Radio Button, Checkbox, ComboBox.
+
+## Terus cara pakeknya gimana?
+
+Cukup di clone/di download, install nodepackagemanager-nya (buka cmd, masuk direktori, ketik "npm install" lalu enter), jalanin ~
+
+## =====================================================
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
