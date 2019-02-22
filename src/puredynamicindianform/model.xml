@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elements>
+
+   <element>
+      <key>name</key>
+      <label>Name</label>  
+      <required>true</required>    
+   </element>
+
+   <element>
+      <key>age</key>
+      <label>Age</label>
+      <type>number</type>      
+   </element>
+
+   <element>
+      <key>bankcabang</key>
+      <label>Bank Cabang</label>
+      <options>
+         <key>kcp-jakarta</key>
+         <label>KCP Jakarta</label>
+         <value>kcp-jakarta</value>
+      </options>
+      <options>
+         <key>kcp-tangerang</key>
+         <label>KCP Tangerang</label>
+         <value>kcp-tangerang</value>
+      </options>
+      <options>
+         <key>kcp-bekasi</key>
+         <label>KCP Bekasi</label>
+         <value>kcp-bekasi</value>
+      </options>
+         <options>
+         <key>kcp-lampung</key>
+         <label>KCP Lampung</label>
+         <value>kcp-lampung</value>
+      </options>
+      <required>true</required>
+      <type>select</type>
+   </element>
+
+   <element>
+      <key>gender</key>
+      <label>Jenis Kelamin</label>
+      <type>radio</type>
+      <required>true</required>
+      <options>
+         <key>male</key>
+         <label>Pria</label>
+         <name>gender</name>
+         <value>male</value>
+      </options>
+      <options>
+         <key>female</key>
+         <label>Wanita</label>
+         <name>gender</name>
+         <value>female</value>
+      </options>
+   </element>
+
+   <element>
+      <key>cabangbang</key>
+      <label>Cabang Bang</label>
+      <type>checkbox</type>
+      <required>true</required>
+      <options>
+         <key>kcp-jakarta</key>
+         <label>KCP Jakarta</label>
+         <value>kcp-jakarta</value>
+      </options>
+      <options>
+         <key>kcp-tangerang</key>
+         <label>KCP Tangerang</label>
+         <value>kcp-tangerang</value>
+      </options>
+      <options>
+         <key>kcp-bekasi</key>
+         <label>KCP Bekasi</label>
+         <value>kcp-bekasi</value>
+      </options>
+         <options>
+         <key>kcp-lampung</key>
+         <label>KCP Lampung</label>
+         <value>kcp-lampung</value>
+      </options>
+   </element>
+
+</elements>
